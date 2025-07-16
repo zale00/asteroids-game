@@ -12,3 +12,33 @@ PLAYER_SPEED = 200
 PLAYER_SHOOT_SPEED = 500
 
 SHOT_RADIUS = 5
+
+# Scoring
+ASTEROID_POINTS = {
+    20: 100,  # Small asteroid
+    40: 50,   # Medium asteroid
+    60: 20    # Large asteroid
+}
+
+# Lives and respawn
+PLAYER_LIVES = 3
+RESPAWN_INVULNERABILITY_TIME = 3.0  # seconds
+
+# Player physics
+PLAYER_ACCELERATION = 500
+PLAYER_FRICTION = 0.99
+PLAYER_MAX_SPEED = 400
+
+# Power-ups
+POWERUP_SPAWN_CHANCE = 0.1  # 10% chance when asteroid destroyed
+POWERUP_RADIUS = 15
+POWERUP_SPEED = 50
+SHIELD_DURATION = 5.0
+SPEED_BOOST_DURATION = 5.0
+SPEED_BOOST_MULTIPLIER = 1.5
+
+# Visual effects
+EXPLOSION_PARTICLES = 8
+EXPLOSION_SPEED = 200
+EXPLOSION_LIFETIME = 0.6
+STAR_COUNT = 100
